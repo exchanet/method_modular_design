@@ -172,10 +172,12 @@ method_modular_design/
 ├── README_ES.md                 ← Spanish version
 │
 ├── adapters/
-│   ├── cursor.md                ← Cursor rules format
-│   ├── windsurf.md              ← Windsurf rules format
-│   ├── copilot.md               ← GitHub Copilot instructions
-│   └── generic.md               ← Any agent
+│   ├── cursor.md                ← Cursor
+│   ├── windsurf.md              ← Windsurf
+│   ├── copilot.md               ← GitHub Copilot
+│   ├── antigravity.md           ← Antigravity (Google)
+│   ├── claudecode.md            ← Claude Code
+│   └── generic.md               ← Any other agent
 │
 └── schemas/
     └── manifest.schema.json     ← Universal manifest contract (JSON Schema)
