@@ -1,8 +1,8 @@
-# METHOD REFLEX — GitHub Copilot Instructions
+# METHOD MODULAR DESIGN — GitHub Copilot Instructions
 > Universal Modular Architecture · v1.0.0 · @exchanet
 > Place this file as: .github/copilot-instructions.md
 
-You are building a modular application using Method REFLEX. Follow these instructions for every task in this project.
+You are building a modular application using Method Modular Design. Follow these instructions for every task in this project.
 
 ## Core Principle
 

@@ -1,4 +1,4 @@
-# 🔮 Method REFLEX — Universal Modular Architecture
+# 🔮 Method Modular Design — Universal Modular Architecture
 
 **Do you want your AI coding agent to build complete, production-ready modular systems — with a WordPress-style Admin Panel — automatically?**
 
@@ -15,14 +15,14 @@ A universal method for any AI coding agent to build clean, modular applications 
 ---
 
 > ⚠️ **Want pro-grade results?**
-> Method REFLEX handles architecture, modularity, and UI generation. For production-quality code with ≥99% test coverage, zero vulnerabilities, and systematic validation cycles, use it alongside **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)**.
-> REFLEX builds the right system. PDCA-T builds it right.
+> Method Modular Design handles architecture, modularity, and UI generation. For production-quality code with ≥99% test coverage, zero vulnerabilities, and systematic validation cycles, use it alongside **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)**.
+> Modular Design builds the right system. PDCA-T builds it right.
 
 ---
 
-## 🎯 What Does Method REFLEX Do?
+## 🎯 What Does Method Modular Design Do?
 
-Method REFLEX instructs any AI coding agent to build a fully modular application where:
+Method Modular Design instructs any AI coding agent to build a fully modular application where:
 
 - ✅ **Every module is self-describing** via a `manifest.json` written before any code
 - ✅ **The Core has zero business logic** — it only discovers modules and reads manifests
@@ -114,25 +114,38 @@ GET  /api/admin/health
 
 ## 🚀 Quick Start
 
-### 1. Install enet (once, globally)
+### Install — 3 options
+
+**Option 1 — enet (recommended)**
+
+[`enet`](https://github.com/exchanet/enet) is the exchanet methods manager. Detects your AI agent automatically and installs the adapter in the right place.
 
 ```bash
 npm install -g @exchanet/enet
+enet install modular-design
 ```
 
-[`enet`](https://github.com/exchanet/enet) is the exchanet methods manager. It detects your AI agent automatically and installs adapters in the right place.
-
-### 2. Install Method REFLEX into your project
+**Option 2 — enet via GitHub (no npm account needed)**
 
 ```bash
-enet install reflex
+npm install -g github:exchanet/enet
+enet install modular-design
 ```
 
-enet detects whether you're using Cursor, Windsurf, or GitHub Copilot and places the adapter correctly. No manual copying.
+**Option 3 — Manual**
 
-> **Manual install (no enet):** copy the adapter for your agent from the `adapters/` folder — `cursor.md`, `windsurf.md`, `copilot.md`, or `generic.md`.
+Download the adapter for your agent from the `adapters/` folder:
 
-### 3. Give your agent a spectech
+| Agent | File | Place at |
+|---|---|---|
+| Cursor | `adapters/cursor.md` | `.cursor/rules/method-modular-design.md` |
+| Windsurf | `adapters/windsurf.md` | Append to `.windsurfrules` |
+| GitHub Copilot | `adapters/copilot.md` | `.github/copilot-instructions.md` |
+| Antigravity | `adapters/antigravity.md` | `.agent/rules/method-modular-design.md` |
+| Claude Code | `adapters/claudecode.md` | `CLAUDE.md` |
+| Any other agent | `adapters/generic.md` | Paste into your agent's context |
+
+### Give your agent a spectech
 
 ```
 Build a project management SaaS.
@@ -153,7 +166,7 @@ Modules: projects, tasks, team members, billing, activity log.
 ## 📁 Repository Structure
 
 ```
-method-reflex/
+method_modular_design/
 ├── METHOD.md                    ← Complete method documentation
 ├── README.md                    ← This file (English)
 ├── README_ES.md                 ← Spanish version
@@ -223,9 +236,9 @@ The agent must never violate these, regardless of context or user request:
 
 ## 📖 Related Methods
 
-Method REFLEX works best alongside:
+Method Modular Design works best alongside:
 
-- **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)** ⭐ Recommended — ≥99% test coverage, zero vulnerabilities, systematic quality validation. REFLEX builds the right system. PDCA-T builds it right.
+- **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)** ⭐ Recommended — ≥99% test coverage, zero vulnerabilities, systematic quality validation. Modular Design builds the right system. PDCA-T builds it right.
 - **[Method IRIS](https://github.com/exchanet/method_IRIS)** — Continuous improvement of existing systems.
 - **[Method Enterprise Builder](https://github.com/exchanet/method_enterprise_builder_planning)** — Large-scale planning for complex projects.
 

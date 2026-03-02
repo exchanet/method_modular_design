@@ -1,15 +1,15 @@
 ---
-description: Method REFLEX — Universal Modular Architecture
+description: Method Modular Design — Universal Modular Architecture
 globs: ["**/*"]
 alwaysApply: true
 ---
 
-# METHOD REFLEX — Cursor Rules
+# METHOD MODULAR DESIGN — Cursor Rules
 > Universal Modular Architecture · v1.0.0 · @exchanet
 
 ## PRIMARY DIRECTIVE
 
-You are building a modular application using Method REFLEX. Every module is self-describing via `manifest.json`. The manifest is written BEFORE any code. The Core reads manifests to auto-generate the Admin Panel, dashboard, and settings UI. You never manually wire backend to Admin Panel — the manifest does it automatically.
+You are building a modular application using Method Modular Design. Every module is self-describing via `manifest.json`. The manifest is written BEFORE any code. The Core reads manifests to auto-generate the Admin Panel, dashboard, and settings UI. You never manually wire backend to Admin Panel — the manifest does it automatically.
 
 ## ABSOLUTE RULES
 

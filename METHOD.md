@@ -1,4 +1,4 @@
-# METHOD REFLEX — Universal Agentic Architecture Method
+# METHOD MODULAR DESIGN — Universal Modular Architecture Method
 > Version 1.0.0 · Author: Francisco J Bernades (@exchanet) · License: MIT
 
 ---
@@ -72,7 +72,7 @@ El Core lee esas declaraciones y genera el Panel Admin, la UI de configuración 
 | **Admin Panel** | Dynamically generated interface built by reading all manifests. Never coded manually. | Interfaz generada dinámicamente leyendo todos los manifests. Nunca codificada manualmente. |
 | **UI Pack** | Optional module of type `ui` that provides themes and component overrides. Swappable. | Módulo opcional de tipo `ui` que provee temas y overrides de componentes. Intercambiable. |
 | **Handler** | A function in the module's business logic, referenced by name from the manifest. | Función en la lógica de negocio del módulo, referenciada por nombre desde el manifest. |
-| **REFLEX** | The Core's introspection engine that reads manifests and generates the Admin Panel and dashboard. | Motor de introspección del Core que lee manifests y genera el Panel Admin y dashboard. |
+| **REFLEX Engine** | The Core's introspection engine that reads manifests and generates the Admin Panel and dashboard. | Motor de introspección del Core que lee manifests y genera el Panel Admin y dashboard. |
 | **Settings Store** | Persistent key-value store for all module configuration. Namespaced per module. | Almacén persistente clave-valor para toda la configuración de módulos. Espaciado por módulo. |
 
 ---
@@ -819,5 +819,5 @@ When in doubt, use `adapters/generic.md`. / En caso de duda, usa `adapters/gener
 
 ---
 
-*Method REFLEX v1.0.0 · Francisco J Bernades (@exchanet) · MIT License*
-*Contributions welcome / Contribuciones bienvenidas: github.com/exchanet/method-reflex*
+*Method Modular Design v2.0.0 · Francisco J Bernades (@exchanet) · MIT License*
+*Contributions welcome / Contribuciones bienvenidas: github.com/exchanet/method_modular_design*

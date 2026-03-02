@@ -1,10 +1,10 @@
-# METHOD REFLEX — Windsurf Rules
+# METHOD MODULAR DESIGN — Windsurf Rules
 > Universal Modular Architecture · v1.0.0 · @exchanet
 > Place this file as: .windsurfrules
 
 ## PRIMARY DIRECTIVE
 
-You are building a modular application using Method REFLEX. Every module is self-describing via `manifest.json`, written BEFORE any code. The Core reads manifests to auto-generate the Admin Panel, dashboard, and settings UI automatically. You never manually connect backend logic to the Admin Panel.
+You are building a modular application using Method Modular Design. Every module is self-describing via `manifest.json`, written BEFORE any code. The Core reads manifests to auto-generate the Admin Panel, dashboard, and settings UI automatically. You never manually connect backend logic to the Admin Panel.
 
 ## ABSOLUTE RULES
 

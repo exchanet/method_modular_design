@@ -1,4 +1,4 @@
-# 🔮 Method REFLEX — Arquitectura Modular Universal
+# 🔮 Method Modular Design — Arquitectura Modular Universal
 
 **¿Quieres que tu agente de codificación IA construya sistemas modulares completos y listos para producción — con un Panel Admin estilo WordPress — de forma automática?**
 
@@ -15,14 +15,14 @@ Un método universal para cualquier agente de codificación IA para construir ap
 ---
 
 > ⚠️ **¿Quieres resultados de nivel profesional?**
-> Method REFLEX se ocupa de la arquitectura, la modularidad y la generación de UI. Para código de calidad producción con cobertura de tests ≥99%, cero vulnerabilidades y ciclos de validación sistemáticos, úsalo junto a **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)**.
-> REFLEX construye el sistema correcto. PDCA-T lo construye correctamente.
+> Method Modular Design se ocupa de la arquitectura, la modularidad y la generación de UI. Para código de calidad producción con cobertura de tests ≥99%, cero vulnerabilidades y ciclos de validación sistemáticos, úsalo junto a **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)**.
+> Modular Design construye el sistema correcto. PDCA-T lo construye correctamente.
 
 ---
 
-## 🎯 ¿Qué Hace Method REFLEX?
+## 🎯 ¿Qué Hace Method Modular Design?
 
-Method REFLEX instruye a cualquier agente de codificación IA para construir una aplicación completamente modular donde:
+Method Modular Design instruye a cualquier agente de codificación IA para construir una aplicación completamente modular donde:
 
 - ✅ **Cada módulo es auto-descriptivo** mediante un `manifest.json` escrito antes que cualquier código
 - ✅ **El Core tiene cero lógica de negocio** — solo descubre módulos y lee manifests
@@ -42,7 +42,7 @@ Method REFLEX instruye a cualquier agente de codificación IA para construir una
 ### El Core
 Motor de arranque que escanea el directorio de módulos, valida cada `manifest.json`, resuelve dependencias, arranca módulos en orden y expone una Admin API estándar. El Core no tiene ningún conocimiento de lo que hace cada módulo.
 
-### El Motor REFLEX
+### El Motor de Introspección (REFLEX Engine)
 Capa de introspección dentro del Core que lee todos los manifests y construye el árbol de navegación del Admin, el registro de widgets del dashboard y el registro de schemas de settings.
 
 ### Los Módulos
@@ -102,25 +102,38 @@ Dashboard
 
 ## 🚀 Inicio Rápido
 
-### 1. Instala enet (una vez, global)
+### Instalación — 3 opciones
+
+**Opción 1 — enet (recomendada)**
+
+[`enet`](https://github.com/exchanet/enet) es el gestor de methods de exchanet. Detecta tu agente automáticamente e instala el adapter en el lugar correcto.
 
 ```bash
 npm install -g @exchanet/enet
+enet install modular-design
 ```
 
-[`enet`](https://github.com/exchanet/enet) es el gestor de methods de exchanet. Detecta tu agente automáticamente e instala los adapters en el lugar correcto.
-
-### 2. Instala Method REFLEX en tu proyecto
+**Opción 2 — enet vía GitHub (sin cuenta npm)**
 
 ```bash
-enet install reflex
+npm install -g github:exchanet/enet
+enet install modular-design
 ```
 
-enet detecta si usas Cursor, Windsurf o GitHub Copilot y coloca el adapter correctamente. Sin copiar nada manualmente.
+**Opción 3 — Manual**
 
-> **Instalación manual (sin enet):** copia el adapter para tu agente desde la carpeta `adapters/` — `cursor.md`, `windsurf.md`, `copilot.md` o `generic.md`.
+Descarga el adapter para tu agente desde la carpeta `adapters/`:
 
-### 3. Dale un spectech a tu agente
+| Agente | Archivo | Ubicación |
+|---|---|---|
+| Cursor | `adapters/cursor.md` | `.cursor/rules/method-modular-design.md` |
+| Windsurf | `adapters/windsurf.md` | Añadir a `.windsurfrules` |
+| GitHub Copilot | `adapters/copilot.md` | `.github/copilot-instructions.md` |
+| Antigravity | `adapters/antigravity.md` | `.agent/rules/method-modular-design.md` |
+| Claude Code | `adapters/claudecode.md` | `CLAUDE.md` |
+| Cualquier otro | `adapters/generic.md` | Pégalo en el contexto de tu agente |
+
+### Dale un spectech a tu agente
 
 ```
 Construye un SaaS de gestión de proyectos.
@@ -131,7 +144,7 @@ Módulos: proyectos, tareas, miembros del equipo, facturación, registro de acti
 ### 4. El agente construye el sistema completo
 
 1. Declara la arquitectura y espera tu confirmación
-2. Construye el Core con motor REFLEX y Admin API
+2. Construye el Core con el REFLEX engine y Admin API
 3. Crea cada módulo — manifest primero, luego handlers
 4. Construye el Panel Admin como renderer dinámico puro
 5. Verifica que cada módulo aparece correctamente antes de marcarlo como completo
@@ -141,7 +154,7 @@ Módulos: proyectos, tareas, miembros del equipo, facturación, registro de acti
 ## 📁 Estructura del Repositorio
 
 ```
-method-reflex/
+method_modular_design/
 ├── METHOD.md                    ← Documentación completa del método
 ├── README.md                    ← Versión en inglés
 ├── README_ES.md                 ← Este archivo (español)
@@ -209,7 +222,7 @@ method-reflex/
 
 ## 📖 Métodos Relacionados
 
-- **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)** ⭐ Recomendado — ≥99% cobertura de tests, cero vulnerabilidades, validación sistemática. REFLEX construye el sistema correcto. PDCA-T lo construye correctamente.
+- **[Method PDCA-T](https://github.com/exchanet/method_pdca-t_coding_Cursor)** ⭐ Recomendado — ≥99% cobertura de tests, cero vulnerabilidades, validación sistemática. Modular Design construye el sistema correcto. PDCA-T lo construye correctamente.
 - **[Method IRIS](https://github.com/exchanet/method_IRIS)** — Mejora continua de sistemas existentes.
 - **[Method Enterprise Builder](https://github.com/exchanet/method_enterprise_builder_planning)** — Planificación a gran escala para proyectos complejos.
 
